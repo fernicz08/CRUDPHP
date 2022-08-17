@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title></title>
+	<link rel="stylesheet" type="text/css" href="/PHPCRUD/eestilos.css">  
+	<div class="Titulo">
+		Politecnico internacional Inscripciones de Programacion 
+		<br>
+	</div> 
+</head>  
+<body>
+
+<form action="Formulario.php" method="post">
+<label>Nombre</label>
+<input type="text" name="Nombre" placeholder="Ingrese su nombre"></input>
+<label>Cc</label>
+<input type="number" name="Cc" min="10" required="true" placeholder="Ingrese su cedula"></input>
+<label>Email</label>
+<input type="email" name="Email" required="true" placeholder="Ingrese su email"></input>
+<label>Curso</label>
+<select name="Curso" required="true">
+    <option value="">Seleccione un curso</option>
+	<option value="Java">Java</option>
+	<option value="PHP">PHP</option>
+	<option value="C++">C++</option>
+	<option value="C#">C#</option>
+	<option value="Html">Html</option>
+</select>
+<input type="submit" value="Insertar"></input>
+</form>
+</body>
+</html>

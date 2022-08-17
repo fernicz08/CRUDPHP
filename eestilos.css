@@ -1,0 +1,89 @@
+form{
+ 	width: 25%;
+	border: #ccc 1px solid;
+	margin: 20px;
+	padding: 20px;
+	position: relative;
+	top:30px;
+	left:35%;
+}
+body{
+	background-image: url("../PHPCRUD/Imagenes/Fondo.png") ; 
+ background-repeat: round;
+}
+.Titulo{
+	color: #F8F9F8;
+	font-size:50px; 
+align-content: center;
+width: 100%;
+text-align: center;
+}
+.botones1{
+
+position: absolute;
+top: 68px;
+left: 65%;
+border: #F8F9FA 2px solid;
+}
+.botones2{
+
+position: absolute;
+top: 160px;
+left: 65%;
+border: #F8F9FA 2px solid;
+}
+.botones3{
+
+position: absolute;
+top: 250px;
+left: 65%;
+border: #F8F9FA 2px solid;
+}
+
+
+table{
+
+color: #F8F9FA;
+font-size:15px;
+width: 60%;
+text-align: center;
+border: #F8F9FA 5px solid;
+border-collapse: collapse;
+background-color: #1B3F5C;
+}
+table td{
+border: #F8F9FA 5px solid;
+padding: 20px;
+}
+table tr:hover{
+	background:#4876FB;
+}
+
+label{
+color: #F8F9FA;
+	font-size:20px; 
+	display:block;
+	width: 100%;
+
+}
+input,select{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+}
+input:focus,select:focus{
+	border:1px solid #1668c4;
+}
+input[type="submit"]{
+
+	margin-bottom:0;
+	background: #F2F2F5;
+	border:none;
+}
+input[type="submit"]:hover{
+  
+	background:#6E7075;
+	cursor:pointer;
+	}
